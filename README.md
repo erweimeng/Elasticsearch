@@ -16,3 +16,10 @@ node.name: "elsearch1"
 
 #允许这个节点被选举为一个主节点(默认为允许)
 #node.master: true
+
+#允许这个节点存储数据(默认为允许)
+# node.data: true
+
+#You can exploit these settings to design advanced cluster topologies.
+
+
