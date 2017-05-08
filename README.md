@@ -18,7 +18,7 @@ node.name: "elsearch1"
 #node.master: true
 
 #允许这个节点存储数据(默认为允许)
-# node.data: true
+#node.data: true
 
 #You can exploit these settings to design advanced cluster topologies.
 
