@@ -83,7 +83,7 @@ node.name: "elsearch1"
 
 # Path to directory where to store index data allocated for this node.
 # 存储这个节点的索引数据的目录的路径
-# 
+#
 # path.data: /path/to/data
 #
 # Can optionally include more than one location, causing data to be striped across
@@ -245,7 +245,7 @@ ik：1.2.6版本的下载：https://github.com/medcl/elasticsearch-analysis-ik/r
 
 安装操作：
 下载zip包解压到一个目录解压缩:
-#unzip elasticsearch-analysis-ik-master.zip 
+#unzip elasticsearch-analysis-ik-master.zip
 
 
 安装mavne环境,apache 官网下载软件包设置环境变量：
@@ -274,7 +274,7 @@ elasticsearch-analysis-ik-1.2.6.jar
 es配置文件需要添加入下行：
 index:
   analysis:                   
-    analyzer:      
+    analyzer:     
       ik:
           alias: [ik_analyzer]
           type: org.elasticsearch.index.analysis.IkAnalyzerProvider
@@ -305,7 +305,7 @@ script.indexed: off
 script.file: off
 index:
   analysis:                   
-    analyzer:      
+    analyzer:     
       ik:
           alias: [ik_analyzer]
           type: org.elasticsearch.index.analysis.IkAnalyzerProvider
@@ -325,10 +325,9 @@ marvel.agent.enabled: false
 [root@localhost bin]# ./elasticsearch -d
 
 
-
 三台集群的机器中找其中一台创建索引：
 
 创建索引：curl -X PUT 'http://172.16.2.24:25556/index'
-{"acknowledged":true}[root@localhost ~]# 
+{"acknowledged":true}[root@localhost ~]#
 注意：返回结果为acknowledged":true 为成功.
 
