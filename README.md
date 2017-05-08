@@ -1,10 +1,8 @@
 # Elasticsearch
 
-
 Elasticsearch-1.7.0安装手册
 
 解压elasticsearch-1.7.0.tar.gz 软件包.
-
 #tar zxf elasticsearch-1.7.0.tar.gz
 
 
