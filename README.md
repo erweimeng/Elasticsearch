@@ -325,6 +325,7 @@ marvel.agent.enabled: false
 [root@localhost bin]# ./elasticsearch -d
 
 
+
 三台集群的机器中找其中一台创建索引：
 
 创建索引：curl -X PUT 'http://172.16.2.24:25556/index'
